@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Glaze Additions -->
+  <project path="manifest" name="manifest" />
+  <project path="vendor/glaze" name="vendor_glaze" />
+
+  <!-- AOSP Forks -->
+  <project path="art" name="art" />
+  <project path="bionic" name="bionic" />
+  <project path="external/aac" name="external_aac" />
+  <project path="external/apache-http" name="external_apache-http" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" />
+  <project path="external/f2fs-tools" name="external_f2fs-tools" />
+  <project path="external/flac" name="external_flac" />
+  <project path="external/icu" name="external_icu" />
+  <project path="external/ipsec-tools" name="external_ipsec-tools"  />
+  <project path="external/libnfc-nci" name="external_libnfc-nci" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" />
+  <project path="external/okhttp" name="external_okhttp" />
+  <project path="external/skia" name="external_skia" />
+  <project path="external/tinyalsa" name="external_tinyalsa" />
+  <project path="external/tinycompress" name="external_tinycompress" />
+  <project path="external/tinyxml2" name="external_tinyxml2" />
+  <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" />
+  <project path="frameworks/av" name="frameworks_av" />
+  <project path="frameworks/base" name="frameworks_base" />
+  <project path="frameworks/native" name="frameworks_native" />
+  <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" />
+  <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" />
+  <project path="frameworks/support" name="frameworks_support" />
+  <project path="hardware/broadcom/libbt" name="hardware_broadcom_libbt" />
+  <project path="hardware/broadcom/wlan" name="hardware_broadcom_wlan" />
+  <project path="hardware/libhardware" name="hardware_libhardware" />
+  <project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" />
+  <project path="hardware/qcom/audio/default" name="hardware_qcom_audio" />
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" />
+  <project path="hardware/qcom/power" name="hardware_qcom_power" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" />
+  <project path="hardware/ril" name="hardware_ril" />
+  <project path="libcore" name="libcore" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" />
+  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" />
+  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" />
+  <project path="packages/apps/Gallery2" name="packages_apps_Gallery2" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" />
+  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" />
+  <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" remote="github" revision="cm-14.1_prerebase" />
+  <project path="packages/apps/Stk" name="LineageOS/android_packages_apps_Stk" remote="github" revision="cm-14.1_prerebase" />
+  <project path="packages/apps/UnifiedEmail" name="LineageOS/android_packages_apps_UnifiedEmail" remote="github" revision="cm-14.1_prerebase" />
+  <project path="packages/inputmethods/LatinIME" name="LineageOS/android_packages_inputmethods_LatinIME" remote="github" revision="cm-14.1_prerebase" />
+  <project path="packages/providers/ContactsProvider" name="packages_providers_ContactsProvider" />
+  <project path="packages/providers/DownloadProvider" name="LineageOS/android_packages_providers_DownloadProvider" remote="github" revision="cm-14.1_prerebase" />
+  <project path="packages/providers/TelephonyProvider" name="packages_providers_TelephonyProvider" />
+  <project path="packages/services/Mms" name="LineageOS/android_packages_services_Mms" remote="github" revision="cm-14.1_prerebase" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" />
+  <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="cm-14.1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" remote="github" revision="cm-14.1" />
+  <project path="system/bt" name="system_bt" />
+  <project path="system/core" name="system_core" />
+  <project path="system/extras" name="system_extras" />
+  <project path="system/keymaster" name="system_keymaster" />
+  <project path="system/media" name="system_media" />
+  <project path="system/netd" name="system_netd" />
+  <project path="system/sepolicy" name="system_sepolicy" />
+  <project path="system/vold" name="system_vold" />
+
+  <!-- CodeAurora Additions -->
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="cm-14.1_prerebase" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="cm-14.1_prerebase" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="cm-14.1_prerebase" />
+  <project path="external/connectivity" name="LineageOS/android_external_connectivity" remote="github" revision="cm-14.1" />
+  <project path="external/libnetfilter_conntrack" name="LineageOS/android_external_libnetfilter_conntrack" remote="github" revision="cm-14.1" />
+  <project path="external/libnfnetlink" name="LineageOS/android_external_libnfnetlink" remote="github" revision="cm-14.1" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="cm-14.1" />
+  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" />
+  <project path="hardware/qcom/audio-caf/msm8916" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/audio-caf/msm8937" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/audio-caf/msm8952" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/audio-caf/msm8960" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/audio-caf/msm8974" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/audio-caf/msm8994" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/audio-caf/msm8996" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="cm-14.1" />
+  <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/display-caf/msm8937" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/display-caf/msm8952" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/display-caf/msm8960" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/display-caf/msm8974" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/display-caf/msm8994" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/display-caf/msm8996" name="LineageOS/android_hardware_qcom_display" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/fm" name="LineageOS/android_hardware_qcom_fm" remote="github" revision="cm-14.1_prerebase" />
+  <project path="hardware/qcom/media-caf/msm8916" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8916" />
+  <project path="hardware/qcom/media-caf/msm8937" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8937" />
+  <project path="hardware/qcom/media-caf/msm8952" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8952" />
+  <project path="hardware/qcom/media-caf/msm8960" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8960" />
+  <project path="hardware/qcom/media-caf/msm8974" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8974" />
+  <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8994" />
+  <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="github" revision="cm-14.1-caf-8996" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="cm-14.1-caf" />
+  <project path="hardware/ril-caf" name="LineageOS/android_hardware_ril" remote="github" revision="cm-14.1-caf" />
+  <project path="system/qcom" name="LineageOS/android_system_qcom" remote="github" revision="cm-14.1_prerebase" />
+  <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="cm-14.1_prerebase" />
+  <project path="vendor/qcom/opensource/bluetooth" name="LineageOS/android_vendor_qcom_opensource_bluetooth" remote="github" revision="cm-14.1_prerebase" />
+  <project path="vendor/qcom/opensource/dpm" name="LineageOS/android_vendor_qcom_opensource_dpm" remote="github" revision="cm-14.1_prerebase" />
+  <project path="vendor/qcom/opensource/dataservices" name="LineageOS/android_vendor_qcom_opensource_dataservices" remote="github" revision="cm-14.1_prerebase" />
+  <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" remote="github" revision="cm-14.1_prerebase" />
+
+</manifest>
