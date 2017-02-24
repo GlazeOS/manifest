@@ -5,6 +5,13 @@
   <project path="manifest" name="manifest" />
   <project path="vendor/glaze" name="vendor_glaze" />
 
+  <project path="external/exfat" name="LineageOS/android_external_exfat" remote="github" revision="cm-14.1" />
+  <project path="external/ffmpeg" name="LineageOS/android_external_ffmpeg" remote="github" revision="cm-14.1" />
+  <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="cm-14.1" />
+  <project path="external/stagefright-plugins" name="LineageOS/android_external_stagefright-plugins" remote="github" revision="cm-14.1" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/SamsungServiceMode" name="LineageOS/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-14.1" />
+
   <!-- AOSP Forks -->
   <project path="art" name="art" />
   <project path="bionic" name="bionic" />
