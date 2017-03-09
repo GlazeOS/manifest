@@ -27,6 +27,7 @@
   <project path="external/libnfc-nxp" name="external_libnfc-nxp" />
   <project path="external/okhttp" name="external_okhttp" />
   <project path="external/skia" name="external_skia" />
+  <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="github" revision="cm-14.1" />
   <project path="external/tinyalsa" name="external_tinyalsa" />
   <project path="external/tinycompress" name="external_tinycompress" />
   <project path="external/tinyxml2" name="external_tinyxml2" />
