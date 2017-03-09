@@ -15,6 +15,7 @@
   <!-- AOSP Forks -->
   <project path="art" name="art" />
   <project path="bionic" name="bionic" />
+  <project path="bootable/recovery" name="bootable_recovery" groups="pdk" />
   <project path="external/aac" name="external_aac" />
   <project path="external/apache-http" name="external_apache-http" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" />
